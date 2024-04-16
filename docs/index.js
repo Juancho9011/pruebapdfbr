@@ -2,7 +2,6 @@ document.addEventListener("DOMContentLoaded", function () {
   console.log("INICIAJUAN...");
   const generatePdfBtn = document.getElementById("generatePdfBtn");
 
-  generatePdfBtn.addEventListener("click", function () {
     //const base64Data = "Tu_cadena_Base64_aquí"; // Reemplaza esto con tu cadena Base64
 
     var base64Data =
@@ -35,4 +34,4 @@ document.addEventListener("DOMContentLoaded", function () {
     URL.revokeObjectURL(blobUrl);
     document.body.removeChild(downloadLink);
   });
-});
+
