@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
 
-    console.log("INICIAJUAN");
+    console.log("INICIAJUAN...");
     const generatePdfBtn = document.getElementById("generatePdfBtn");
   
     generatePdfBtn.addEventListener("click", function() {
